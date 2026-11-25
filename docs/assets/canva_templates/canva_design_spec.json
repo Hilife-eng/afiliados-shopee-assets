@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "project": "Cascata 400 LEDs - Storytelling 5 Cenas",
+    "format": "Instagram Stories/Reels/TikTok/Shorts (9:16)",
+    "dimensions": {
+      "width": 1080,
+      "height": 1920
+    },
+    "safe_zones": {
+      "top": 150,
+      "bottom": 350,
+      "left": 60,
+      "right": 60
+    },
+    "created_for": "Canva Bulk Create + Manual Polish",
+    "version": "2.0"
+  },
+  "colors": {
+    "primary": {
+      "orange": {
+        "hex": "#FF6B35",
+        "name": "Laranja Principal (CTA, Destaque)"
+      },
+      "green": {
+        "hex": "#2ED573",
+        "name": "Verde Sucesso (Preço, Ação)"
+      },
+      "purple": {
+        "hex": "#A55EEA",
+        "name": "Roxo Emocional (Presente, Natal)"
+      },
+      "blue": {
+        "hex": "#2E86DE",
+        "name": "Azul Confiança (Info, Especs)"
+      },
+      "gold": {
+        "hex": "#FFD700",
+        "name": "Dourado Premium (Prova, Badge)"
+      }
+    },
+    "neutral": {
+      "white": {
+        "hex": "#FFFFFF",
+        "opacity": 1.0
+      },
+      "white_80": {
+        "hex": "#FFFFFF",
+        "opacity": 0.8
+      },
+      "white_50": {
+        "hex": "#FFFFFF",
+        "opacity": 0.5
+      },
+      "white_20": {
+        "hex": "#FFFFFF",
+        "opacity": 0.2
+      },
+      "black_60": {
+        "hex": "#000000",
+        "opacity": 0.6
+      },
+      "black_40": {
+        "hex": "#000000",
+        "opacity": 0.4
+      },
+      "black_20": {
+        "hex": "#000000",
+        "opacity": 0.2
+      }
+    },
+    "scene_specific": {
+      "scene_1_mystery": {
+        "overlay": "black_60",
+        "accent": "gold"
+      },
+      "scene_2_problem": {
+        "overlay": "black_60",
+        "accent": "white_50",
+        "desaturate": true
+      },
+      "scene_3_discovery": {
+        "overlay": "black_50",
+        "accent": "orange",
+        "price": "green"
+      },
+      "scene_4_transformation": {
+        "overlay": "black_40",
+        "accent": "gold"
+      },
+      "scene_5_sale": {
+        "overlay": "black_50",
+        "accent": "orange",
+        "cta_bg": "orange",
+        "cta_border": "gold"
+      }
+    }
+  },
+  "typography": {
+    "font_families": {
+      "heading": {
+        "family": "Montserrat Alternates",
+        "fallback": [
+          "Montserrat",
+          "Poppins",
+          "Inter"
+        ]
+      },
+      "body": {
+        "family": "Montserrat",
+        "fallback": [
+          "Poppins",
+          "Inter",
+          "system-ui"
+        ]
+      },
+      "accent": {
+        "family": "Montserrat Alternates",
+        "fallback": [
+          "Montserrat",
+          "Poppins"
+        ]
+      }
+    },
+    "scale": {
+      "display": {
+        "size": 64,
+        "weight": 800,
+        "line_height": 1.15,
+        "letter_spacing": -0.02,
+        "use": "Headline principal cena 1,4"
+      },
+      "h1": {
+        "size": 52,
+        "weight": 700,
+        "line_height": 1.2,
+        "letter_spacing": -0.01,
+        "use": "Headlines cenas 2,3,5"
+      },
+      "h2": {
+        "size": 40,
+        "weight": 700,
+        "line_height": 1.25,
+        "letter_spacing": 0,
+        "use": "Sub-headlines"
+      },
+      "h3": {
+        "size": 32,
+        "weight": 600,
+        "line_height": 1.3,
+        "letter_spacing": 0,
+        "use": "Preço destaque, CTA badge"
+      },
+      "body_lg": {
+        "size": 26,
+        "weight": 400,
+        "line_height": 1.4,
+        "letter_spacing": 0,
+        "use": "Specs, benefícios"
+      },
+      "body": {
+        "size": 22,
+        "weight": 400,
+        "line_height": 1.5,
+        "letter_spacing": 0,
+        "use": "Texto secundário"
+      },
+      "caption": {
+        "size": 18,
+        "weight": 500,
+        "line_height": 1.4,
+        "letter_spacing": 0.01,
+        "use": "Watermark, disclaimers"
+      },
+      "cta_badge": {
+        "size": 30,
+        "weight": 800,
+        "line_height": 1.2,
+        "letter_spacing": 0.02,
+        "use": "Badge 'COMENTE EU QUERO'"
+      }
+    },
+    "colors_by_role": {
+      "headline": "white",
+      "subheadline": "gold",
+      "price": "green",
+      "cta_text": "white",
+      "watermark": "white_20",
+      "problem_text": "white_50"
+    }
+  },
+  "spacing": {
+    "base": 8,
+    "scale": {
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "2xl": 48,
+      "3xl": 64,
+      "4xl": 96
+    },
+    "safe_margin": 60,
+    "text_block_gap": 24,
+    "badge_padding": {
+      "x": 24,
+      "y": 12
+    },
+    "cta_badge_padding": {
+      "x": 32,
+      "y": 16
+    }
+  },
+  "components": {
+    "badge": {
+      "border_radius": 12,
+      "padding": {
+        "x": 24,
+        "y": 12
+      },
+      "font": "h3",
+      "variants": {
+        "price": {
+          "bg": "orange",
+          "text": "white",
+          "icon": "🔥"
+        },
+        "discount": {
+          "bg": "green",
+          "text": "white",
+          "icon": "✅"
+        },
+        "feature": {
+          "bg": "blue",
+          "text": "white",
+          "icon": "⚡"
+        },
+        "premium": {
+          "bg": "gold",
+          "text": "black",
+          "icon": "🏆"
+        }
+      }
+    },
+    "cta_badge": {
+      "border_radius": 28,
+      "padding": {
+        "x": 32,
+        "y": 16
+      },
+      "font": "cta_badge",
+      "bg": "orange",
+      "text": "white",
+      "border": {
+        "width": 3,
+        "color": "gold"
+      },
+      "shadow": {
+        "offset": [
+          0,
+          4
+        ],
+        "blur": 12,
+        "color": "black_40"
+      }
+    },
+    "text_block": {
+      "max_width": "90%",
+      "line_height_multiplier": 1.25,
+      "shadow": {
+        "offset": [
+          2,
+          2
+        ],
+        "blur": 0,
+        "color": "black_60"
+      }
+    },
+    "gradient_overlay": {
+      "bottom": {
+        "height_ratio": 0.35,
+        "max_opacity": 180,
+        "color": "black"
+      },
+      "center": {
+        "height_ratio": 0.5,
+        "max_opacity": 160,
+        "color": "black"
+      },
+      "top": {
+        "height_ratio": 0.3,
+        "max_opacity": 140,
+        "color": "black"
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "name": "GANCHO - Mistério",
+      "description": "Casa iluminada, atmosfera misteriosa, NÃO mostra produto",
+      "source_image": "img1_casa_panoramica",
+      "cinematic_look": {
+        "brightness": 0.85,
+        "contrast": 1.35,
+        "saturation": 1.25,
+        "vignette_strength": 0.6,
+        "color_grade": "cool_shadows_warm_highlights"
+      },
+      "overlay": "gradient_center",
+      "layout": {
+        "headline": {
+          "text": "Essa casa me fez\nparar o carro... 😳",
+          "style": "display",
+          "position": "center",
+          "color": "white",
+          "max_lines": 2
+        },
+        "arrow_hint": {
+          "text": "👇 Arraste pra ver por que",
+          "style": "body",
+          "position": "bottom_center",
+          "offset_y": -120,
+          "color": "gold",
+          "animation": "bounce_subtle"
+        }
+      },
+      "duration_seconds": 3,
+      "audio_cue": "Som de carro parando + suspense suave"
+    },
+    {
+      "id": 2,
+      "name": "PROBLEMA - Identificação",
+      "description": "MESMA casa, versão 'antes' - escura, sem graça, dessaturada",
+      "source_image": "img1_casa_panoramica",
+      "cinematic_look": {
+        "brightness": 0.4,
+        "contrast": 1.1,
+        "saturation": 0.25,
+        "vignette_strength": 0.5,
+        "color_grade": "desaturated_cold"
+      },
+      "overlay": "gradient_center",
+      "layout": {
+        "headline": {
+          "text": "A real? A maioria\ndas casas tá assim... 😔",
+          "style": "h1",
+          "position": "center",
+          "color": "white",
+          "max_lines": 2
+        },
+        "subtext": {
+          "text": "Apagada. Sem vida.\nSem clima de Natal.",
+          "style": "body_lg",
+          "position": "bottom_center",
+          "offset_y": -100,
+          "color": "white_50",
+          "max_lines": 2
+        }
+      },
+      "duration_seconds": 3,
+      "audio_cue": "Som de vento / silêncio / 'triste'"
+    },
+    {
+      "id": 3,
+      "name": "DESCOBERTA - Revelação",
+      "description": "Primeira aparição do produto (img2) - close vibrante, specs claras",
+      "source_image": "img2_produto_close",
+      "cinematic_look": {
+        "brightness": 1.05,
+        "contrast": 1.25,
+        "saturation": 1.2,
+        "vignette_strength": 0.3,
+        "color_grade": "vibrant_warm"
+      },
+      "overlay": "gradient_bottom",
+      "layout": {
+        "headline": {
+          "text": "Até achar ESSA\ncascata de 400 LEDs 🎄",
+          "style": "h1",
+          "position": "top_center",
+          "offset_y": 80,
+          "color": "white",
+          "max_lines": 2
+        },
+        "specs": {
+          "text": "10 metros • 8 efeitos + fixo\n110V/220V • Liga na tomada",
+          "style": "body_lg",
+          "position": "center",
+          "color": "gold",
+          "line_height": 1.5
+        },
+        "price_badge": {
+          "text": "De R$99,99 → R$79,62",
+          "style": "h3",
+          "position": "bottom_center",
+          "offset_y": -80,
+          "variant": "price",
+          "icon": "🔥"
+        }
+      },
+      "duration_seconds": 6,
+      "audio_cue": "Som de 'descoberta' / mágica / reveal"
+    },
+    {
+      "id": 4,
+      "name": "TRANSFORMAÇÃO - Resultado",
+      "description": "Casa DEPOIS (img1) - look glorioso, foco no resultado emocional",
+      "source_image": "img1_casa_panoramica",
+      "cinematic_look": {
+        "brightness": 1.0,
+        "contrast": 1.4,
+        "saturation": 1.35,
+        "vignette_strength": 0.4,
+        "color_grade": "high_contrast_warm"
+      },
+      "overlay": "gradient_bottom",
+      "layout": {
+        "headline": {
+          "text": "O resultado?\nMINHA CASA! 🤯✨",
+          "style": "display",
+          "position": "center",
+          "color": "white",
+          "max_lines": 2
+        },
+        "subtext": {
+          "text": "A mais bonita\nda rua inteira 🏆",
+          "style": "body_lg",
+          "position": "bottom_center",
+          "offset_y": -100,
+          "color": "gold"
+        }
+      },
+      "duration_seconds": 6,
+      "audio_cue": "Música natalina crescendo / 'uau'"
+    },
+    {
+      "id": 5,
+      "name": "VENDA - CTA Comente",
+      "description": "Produto (img2) + CTA badge destacado 'COMENTE EU QUERO'",
+      "source_image": "img2_produto_close",
+      "cinematic_look": {
+        "brightness": 1.0,
+        "contrast": 1.25,
+        "saturation": 1.15,
+        "vignette_strength": 0.25,
+        "color_grade": "clean_bright"
+      },
+      "overlay": "gradient_bottom",
+      "layout": {
+        "headline": {
+          "text": "Quer a sua\nnesse Natal? 🎄",
+          "style": "h1",
+          "position": "top_center",
+          "offset_y": 100,
+          "color": "white",
+          "max_lines": 2
+        },
+        "specs": {
+          "text": "Cascata 400 LEDs 10m\n8 efeitos • Bivolt • Frete grátis*",
+          "style": "body_lg",
+          "position": "center",
+          "color": "gold",
+          "line_height": 1.5
+        },
+        "price_badge": {
+          "text": "R$79,62  (20% OFF)",
+          "style": "h3",
+          "position": "bottom_center",
+          "offset_y": -60,
+          "variant": "price",
+          "icon": "🔥"
+        },
+        "cta_badge": {
+          "text": "💬 COMENTE \"EU QUERO\"\nE TE MANDO O LINK!",
+          "style": "cta_badge",
+          "position": "bottom_center",
+          "offset_y": 120,
+          "component": "cta_badge"
+        },
+        "watermark": {
+          "text": "s.shopee.com.br/4qHENyXRK7",
+          "style": "caption",
+          "position": "bottom_right",
+          "offset": {
+            "x": -20,
+            "y": -20
+          },
+          "color": "white_20"
+        }
+      },
+      "duration_seconds": 8,
+      "audio_cue": "CTA direto / música final / 'link nos comentários'"
+    }
+  ],
+  "assets_needed": {
+    "img1_casa_panoramica": {
+      "description": "Foto da casa iluminada à noite (panorâmica/noturna)",
+      "source": "dashboard_20261115_114805_5c2720a1_br-11134207-820ls-mtdy9yqpiltv31_resize_w450_nl_1aa96b.webp",
+      "usage": "Cenas 1, 2, 4",
+      "crop_focus": "top_center (foco nas luzes do telhado/sacada)"
+    },
+    "img2_produto_close": {
+      "description": "Close do produto - cascata na janela/parede",
+      "source": "dashboard_20261115_114805_fde0a4ff_br-11134207-820ls-mtdy9yqpiltv31_resize_w450_nl_2349fe.webp",
+      "usage": "Cenas 3, 5",
+      "crop_focus": "center (produto centralizado)"
+    }
+  },
+  "canva_instructions": {
+    "step_1_create_template": [
+      "Crie um design customizado: 1080x1920px (Stories/Reels)",
+      "Adicione guias (View > Show margins > Custom): Top 150, Bottom 350, Left/Right 60",
+      "Salve como 'Template Base - 9:16 Safe Zones'"
+    ],
+    "step_2_text_styles": [
+      "Text > Text styles > Create new style para cada nível da escala tipográfica",
+      "Nomes sugeridos: Display/Headline, H1, H2, H3, Body Large, Body, Caption, CTA Badge",
+      "Configure: Font (Montserrat Alternates/Montserrat), Size, Weight, Line height, Letter spacing"
+    ],
+    "step_3_color_palette": [
+      "Brand Kit > Colors > Add palette 'Cascata Natal'",
+      "Adicione: #FF6B35 (Laranja), #2ED573 (Verde), #A55EEA (Roxo), #2E86DE (Azul), #FFD700 (Dourado)",
+      "Adicione neutros: White 100%, 80%, 50%, 20% | Black 60%, 40%, 20%"
+    ],
+    "step_4_create_scenes": [
+      "Duplique o template base 5x (uma por cena)",
+      "Nomeie: Cena 01 - Gancho, Cena 02 - Problema, etc.",
+      "Para cada cena: importe a imagem fonte, aplique o cinematic look (ajuste manual ou filtros)",
+      "Adicione overlay gradiente (Element > Gradiente > Linear > Preto transparente → Preto 60%)",
+      "Posicione textos conforme layout spec (use Text Styles criados)",
+      "Crie componentes reutilizáveis: Badge Preço, Badge CTA"
+    ],
+    "step_5_bulk_create": [
+      "Se tiver CSV (abaixo), use Apps > Bulk Create > Upload CSV",
+      "Conecte campos: {{headline}}, {{subtext}}, {{specs}}, {{price}}, {{cta_text}}",
+      "Gere todas de uma vez, depois ajuste fino manual"
+    ],
+    "step_6_export": [
+      "Share > Download > MP4 Video (para Reels/TikTok/Shorts) - 25-30s total",
+      "OU Download > PNG (para Stories sequenciais - 5 arquivos)",
+      "Marque 'Include audio' se adicionou música no Canva"
+    ]
+  }
+}
